@@ -1,0 +1,14 @@
+net: "/opt/caffe/examples/pca_alex/train_val.prototxt"
+test_iter: 45
+test_interval: 150
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 50
+display: 20
+max_iter: 4500
+momentum: 0.9
+weight_decay: 0.005
+snapshot: 1000
+snapshot_prefix: "/opt/caffe/examples/pca_alex/caffe_pca_alex_train"
+solver_mode: CPU
